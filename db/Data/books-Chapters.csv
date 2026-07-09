@@ -1,0 +1,6 @@
+ID;Title;Book_ID;ChapterNumber;Content
+1;Chapter 1: The Beginning;1;1;This is the content of Chapter 1.
+2;Chapter 2: The Journey;1;2;This is the content of Chapter 2.
+3;Chapter 1: The Awakening;2;1;This is the content of Chapter 1 of Book 2.
+4;Chapter 2: The Challenge;2;2;This is the content of Chapter 2 of Book 2.
+5;Chapter 3: The Resolution;2;3;This is the content of Chapter 3 of Book 2.

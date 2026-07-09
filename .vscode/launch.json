@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cds watch",
+            "request": "launch",
+            "command": "cds watch",
+            "type": "node-terminal",
+            "console": "internalConsole"
+        },
+        {
+            "name": "cds watch (hybrid)",
+            "request": "launch",
+            "command": "cds watch --profile hybrid",
+            "type": "node-terminal",
+            "console": "internalConsole"
+        }
+    ]
+}
