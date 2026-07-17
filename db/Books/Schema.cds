@@ -3,10 +3,10 @@ using { cuid, managed, temporal, Country, Currency } from '@sap/cds/common';
 entity Books : cuid, managed {
   Key bookNumber: String;
   Title: String(100);
-  Author: String(100);
   PublishedYear: Integer;
   Address: String(500);
-  a_authers:Association to Authors;
+  a_authors: Association to Authors;
+  a_chapters: Association to many Chapters on a_chapters.Book_ID = $self.ID;
 }
 entity Authors {
   key ID: Integer;
@@ -18,7 +18,7 @@ entity Authors {
 entity Chapters {
   key ID: Integer;
   Title: String(100);
-  Book: Association to Books;
+  Book_ID: UUID;
   ChapterNumber: Integer;
   Content: LargeString;
 }

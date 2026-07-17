@@ -8,11 +8,10 @@ POST http://localhost:4004/odata/v4/booksservice/Books
 Content-Type: application/json
 
 {
-  "bookNumber": "BK002",
-  "Title": "Book 2",
-  "Author": "Author 2",
+  "bookNumber": "BK006",
+  "Title": "Book 6",
   "PublishedYear": 2020,
-  "Address": "Address 2"
+  "Address": "Address 6"
 }
 
 ###
